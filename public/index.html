@@ -6,8 +6,18 @@
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' defer rel='stylesheet' />
     <link href="./style.css" rel="stylesheet">
   </head>
-  <body>
-    <div id="map"></div>
+  <body class="container column">
+    <header id="header" class="container">
+      [[navbar]]
+    </header>
+
+    <div class="container">
+      <div id="map"></div>
+      <div id="sidebar" class="container">
+        <div id="destinations"></div>
+        <div id="itinerary"></div>
+      </div>
+    </div>
   </body>
 </html>
 
